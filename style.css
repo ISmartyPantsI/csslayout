@@ -1,0 +1,36 @@
+.parent {
+    background-color: rgb(255, 252, 252);
+    border: 2px solid rgb(95, 20, 194);
+    padding: 5px;
+    height: 150vh;
+    position: relative;
+
+}
+
+.static {
+    background-color: blanchedalmond;
+    position: static;
+}
+
+.relative {
+    background-color: blueviolet;
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.absolute {
+
+    background-color: cyan;
+    position: absolute;
+}
+
+.fixed {
+    background-color: darkorchid;
+    position: fixed;
+    top: 10px
+}
+
+.sticky {
+    background-color: gold;
+}
